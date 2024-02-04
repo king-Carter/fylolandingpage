@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:25px 20px 0px 25px;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+
+}
+header img{
+    width: 5.5rem;
+}
+nav{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(94, 90, 90);
+    margin-left: 20px;
+}
+main{
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#section-one{
+    padding: 0px 20px;
+    margin: 80px 0px 50px 0px;
+}
+#section-one img{
+    max-width: 100%;
+    display: flex;
+    
+}
+#section-one h2{
+    margin: 40px 0px 20px 0px;
+}
+#section-one input{
+    width: 100%;
+    height:35px;
+    border:1px solid;
+    border-radius: 3px;
+    margin:30px 0px 10px 0px;
+}
+#section-one button{
+    width: 100%;
+    height:35px;
+    color:#ffffff;
+    background-color: hsl(224, 93%, 58%);
+    border:1px solid transparent;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+input{
+    padding: 0px 0px 0px 20px;
+}
+
+#curve-background{
+    background-image: url(bg-curve-mobile.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    min-height:100%;
+    background-size: cover;
+}
+#section-two{
+    background-color: hsl(240, 75%, 98%);
+    padding:50px 20px 40px 20px;
+    text-align: start;
+}
+#section-two h3{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+#section-two p{
+    margin:10px 0px 20px 0px;
+}
+#section-two img{
+    max-width:100%;
+    
+}
+#section-two a{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    gap:0.7rem;
+   
+
+}
+#section-two span{
+    border-bottom:1px solid hsl(170, 45%, 43%);
+    display: flex;
+    gap:0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#response{
+    display: flex;
+    justify-content:center;
+
+ 
+}
+#card{
+    background-color: #ffffff;
+    margin:40px 0px 0px 0px;
+    padding:20px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    width:295px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+#cardfooter{
+    display: flex;
+    margin-top:0.8rem;
+}
+#profile img{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+#author p{
+    font-size:0.6rem;
+}
+#author h4{
+    font-size:0.9rem;
+}
+#section-three{
+    background-color: hsl(238, 22%, 44%);
+    color:white;
+    padding:40px 40px 60px 40px;
+    font-size:0.9rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+#section-three p{
+    margin:20px 0px 20px 0px;
+}
+#section-three input{
+    width: 100%;
+    height:35px;
+    margin:0px 0px 10px 0px;
+    border:1px solid transparent;
+    border-radius: 3px;
+}
+#section-three button{
+    width: 100%;
+    height:35px;
+    color:#ffffff;
+    background-color: hsl(224, 93%, 58%);
+    border:1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color:#ffffff;
+    font-family: Open sans;
+    padding:50px 30px;
+}
+footer img{
+    filter: brightness(0) invert(1);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    margin:30px 0px 0px 0px;
+}
+.contacts{
+    display: flex;
+}
+.contacts p{
+    margin-left:1rem;
+}
+Footer a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#icons{
+    margin:30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+#icons i{
+    border: 1px solid #ffffff;
+    padding:10px;
+    margin:0px 0px 0px 10px;
+    border-radius: 50%;
+}
+footer a:hover{
+    color:hsl(238, 22%, 44%);
+    
+    }
+
+#icons i:hover {
+    border-color:hsl(238, 22%, 44%);
+}
+#section-one button:hover{
+    background-color:hsl(239, 47%, 45%);
+}
+#section-three button:hover{
+    background-color:hsl(239, 47%, 45%);
+}
+@media(min-width:768px){
+   
+    header{
+        padding:60px 50px 0px 60px;
+    }
+    header img{
+        width: 9rem;
+    }
+    nav a{
+        margin-left: 50px;
+        font-size: 1rem;
+    } 
+    #section-one{
+        display: flex;
+        flex-direction: row-reverse;
+        padding:0px 60px;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #section-one #image{
+        max-width:50%;
+           
+    }
+    #section-one #content{
+        max-width: 42%;
+        
+    }
+    #section-one h2{
+        font-size: 2.2rem;
+    }
+    #section-one p{
+        font-size: 1rem;
+    }
+    #section-one input{
+        width:50%;
+        height:40px;
+    }
+    #section-one button{
+        width:25%;
+        height:40px;
+        margin-left: 0.5rem;
+    }
+    #curve-background{
+        background-image: url(bg-curve-desktop.svg);
+        width: 100vw; /* Set width to 100% of the container */
+    height: 100px;
+    min-height: 100%;
+    background-size: cover;
+    }
+    #section-two{
+        display: flex;
+        flex-direction: row-reverse;
+        padding:0px 60px 40px 60px
+    }
+    #section-two h3{
+        text-align: start;
+        font-size:2rem;
+    }
+    #section-two a{
+        justify-content: flex-start;
+    }
+    #response{
+        display: inline-block;
+    }
+    #section-three{
+        flex-direction: row;
+        text-align: start;
+        justify-content: space-between;
+        padding:60px 70px 60px 60px;
+    }
+    #section-three .content{
+        width:50%;
+    }
+    #section-three h3{
+        font-size:1.3rem;
+    }
+    #input-box{
+        width: 40%;
+    }
+    #section-three button{
+        width:50%;
+    }
+    footer{
+        padding:70px 80px 40px 80px;
+    }
+    #footer-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
